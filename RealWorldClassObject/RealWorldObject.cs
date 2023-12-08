@@ -13,8 +13,8 @@ namespace RealWorldClassObject
         public string eyeColour;
         public string hairColour;
         public double heightInMetres;
-        public bool clothes;
-        public bool eyesOpen;
+        private bool clothes;
+        private bool eyesOpen;
 
         public Person(string Name, int Age, string EyeColour, string HairColour, double HeightInMetres, bool Clothes, bool EyesOpen) 
         {

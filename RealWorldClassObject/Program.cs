@@ -40,7 +40,7 @@
 
             Person userPerson = new Person(nameInput,ageInput,eyeColourInput,hairInput,heightInput,clothesInput,eyesOpenInput);
 
-            Console.WriteLine($"Congraulations! You person is {userPerson.name}. They are {userPerson.age}. They have {userPerson.eyeColour} eyes and {userPerson.hairColour} hair. They are {userPerson.heightInMetres} metres tall.");
+            Console.WriteLine($"Congratulations! You person is {userPerson.name}. They are {userPerson.age}. They have {userPerson.eyeColour} eyes and {userPerson.hairColour} hair. They are {userPerson.heightInMetres} metres tall.");
             userPerson.DyeHair("Blue");
             userPerson.OpenCloseEyes();
             userPerson.AddRemoveClothes();
