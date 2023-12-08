@@ -26,5 +26,12 @@ namespace RealWorldClassObject
             clothes = Clothes;
             eyesOpen = EyesOpen;
         }
+
+        public bool Blink()
+        {
+            return eyesOpen = !eyesOpen;
+        }
+
+
     }
 }
