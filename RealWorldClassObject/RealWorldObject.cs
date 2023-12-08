@@ -27,11 +27,24 @@ namespace RealWorldClassObject
             eyesOpen = EyesOpen;
         }
 
-        public bool Blink()
+        public bool OpenCloseEyes()
         {
             return eyesOpen = !eyesOpen;
         }
 
+        public bool AddRemoveClothes()
+        {
+            return clothes = !clothes;
+        }
+        public string ChangeName(string newName) 
+        {
+            return name = newName;
+        }
+
+        public string DyeHair(string newHair)
+        {
+            return hairColour = newHair;
+        }
 
     }
 }
