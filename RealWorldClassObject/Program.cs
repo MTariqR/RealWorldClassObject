@@ -4,8 +4,6 @@
     {
         static void Main(string[] args)
         {
-            Person noah = new Person("Noah",26,"Brown","Brown",176,true,true);
-
             string nameInput;
             int ageInput;
             string eyeColourInput;
@@ -43,6 +41,10 @@
             Person userPerson = new Person(nameInput,ageInput,eyeColourInput,hairInput,heightInput,clothesInput,eyesOpenInput);
 
             Console.WriteLine($"Congraulations! You person is {userPerson.name}. They are {userPerson.age}. They have {userPerson.eyeColour} eyes and {userPerson.hairColour} hair. They are {userPerson.heightInMetres} metres tall.");
+            userPerson.DyeHair("Blue");
+            userPerson.OpenCloseEyes();
+            userPerson.AddRemoveClothes();
+            Console.WriteLine($"I changed {userPerson.name}'s hair to {userPerson.hairColour}.");
         }
 
     }
